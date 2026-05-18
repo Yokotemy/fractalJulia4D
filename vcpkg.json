@@ -1,0 +1,9 @@
+{
+  "name": "projekt-graficzny",
+  "version": "1.0.0",
+  "dependencies": [
+    "glew",
+    "glfw3",
+    "glm"
+  ]
+}
