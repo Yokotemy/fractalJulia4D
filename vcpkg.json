@@ -1,9 +1,11 @@
 {
-  "name": "projekt-graficzny",
+  "name": "ftester",
   "version": "1.0.0",
   "dependencies": [
     "glew",
     "glfw3",
-    "glm"
+    "glm",
+    "opengl",
+    "pkgconf"
   ]
 }

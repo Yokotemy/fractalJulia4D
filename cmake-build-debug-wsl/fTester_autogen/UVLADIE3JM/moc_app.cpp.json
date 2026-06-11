@@ -1,0 +1,115 @@
+{
+    "classes": [
+        {
+            "className": "App",
+            "lineNumber": 8,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 26,
+                    "name": "renderFrame",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 10,
+                    "name": "width",
+                    "notify": "widthChanged",
+                    "read": "width",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 11,
+                    "name": "height",
+                    "notify": "heightChanged",
+                    "read": "height",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 12,
+                    "name": "useGPU",
+                    "notify": "useGPUChanged",
+                    "read": "useGPU",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setUseGPU"
+                }
+            ],
+            "qualifiedClassName": "App",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 29,
+                    "name": "widthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 30,
+                    "name": "heightChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 31,
+                    "name": "useGPUChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "app.h",
+    "outputRevision": 69
+}

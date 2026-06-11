@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qml">
+    <file alias="qmldir">/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl/qml/qmldir</file>
+  </qresource>
+</RCC>
+

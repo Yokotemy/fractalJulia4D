@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  fractal-julia:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fractal-julia:latest
+    container_name: fractal-julia-app
+    
+    # GPU support
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    
+    # Display support (for X11 GUI if needed)
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_QPA_PLATFORM=offscreen
+    
+    volumes:
+      # Uncomment for X11 display support (Linux only)
+      # - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # - ~/.Xauthority:/root/.Xauthority:rw
+      
+      # Build folder - widoczny na Windows
+      - ./build:/app/build
+      
+      # Output volume for results
+      - ./output:/app/output
+    
+    # Adjust as needed for your application
+    stdin_open: true
+    tty: true

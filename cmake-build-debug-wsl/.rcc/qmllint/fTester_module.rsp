@@ -1,0 +1,14 @@
+-I
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl
+-I
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl/qml
+-I
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl
+-I
+/usr/lib/x86_64-linux-gnu/qt6/qml
+--resource
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl/.qt/rcc/qmake_qml.qrc
+--resource
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl/.qt/rcc/fTester_raw_qml_0.qrc
+--module
+qml

@@ -1,13 +1,21 @@
-//
-// Created by kuzni on 17.05.2026.
-//
+#pragma once
 
-#ifndef FTESTER_UIBRIDGE_H
-#define FTESTER_UIBRIDGE_H
+#include <QObject>
 
+class App;
 
-class UIBridge {
+class UIBridge : public QObject {
+    Q_OBJECT
+
+public:
+    explicit UIBridge(App& app, QObject* parent = nullptr);
+
+    // Wywołaj renderowanie według zadanych parametrów (możesz wywołać z QML/Q_INVOKABLE)
+    Q_INVOKABLE void startRender(int width, int height, bool useGPU);
+
+    // Przykładowa metoda do wywołania pojedynczej ramki na CPU (opcjonalnie)
+    Q_INVOKABLE void renderSingleFrame();
+
+private:
+    App& m_app;
 };
-
-
-#endif //FTESTER_UIBRIDGE_H

@@ -1,0 +1,166 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 0f32f772684f7c608d8fad9a0b1ed9da1a343c0dbfe9a2380ecc5d3bb45064f1
+Status: purge ok not-installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: b4a3e3346cf801f84bf40262253e84f16c0404cafd7d80aa3eed03c4ed485738
+Status: purge ok not-installed
+
+Package: egl-registry
+Version: 2025-05-27
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3e48ce303fe54aa0f6bd166412f8d46908b9258e61377ce0f7b04395d5d44d99
+Description: EGL API and Extension Registry
+Status: purge ok not-installed
+
+Package: opengl-registry
+Version: 2026-01-26
+Depends: egl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 7a3bc0f976081721e6bb343b5e37e50cce22e5a5925066b44d3361fdda487d3d
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: purge ok not-installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 2b654737a65a2893a314756fd4007debdd82cadfdd6a5922e65797ac937fe60f
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: purge ok not-installed
+
+Package: glew
+Version: 2.3.1
+Depends: opengl, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: ad6b942e39387655bb6ea73698c083695dc837b3b516555bf759482f14c3b94a
+Description: The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+Status: purge ok not-installed
+
+Package: glfw3
+Version: 3.4
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 2eeff7cada08a4d6a41aa9937cbfa9f280c31434cb3bea84e81d1e41b261d139
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: purge ok not-installed
+
+Package: glm
+Version: 1.0.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 6eb642fbe9639254aed55062a30f9ac5c6a57c3c6e12336197bcde97ed77adf7
+Description: OpenGL Mathematics (GLM)
+Status: purge ok not-installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4385d1a668e0a911f73af5918b28807364068128358dd2c3b7629590524ee458
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6fc26479c291b66a92b713cfb2bb5a8620a06b2872e2a67def27b0f5def81ea8
+Status: install ok installed
+
+Package: egl-registry
+Version: 2025-05-27
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5bac86f41f13cf3c0e9aa04a6c58919e99514db02e3d83379f31c6829402c3d4
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2026-01-26
+Depends: egl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: af5ab787073e699f142ed223497fcdcf5b1cacc8631ea80eaf55437c405d083f
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 0113dfb9a498d887fee18f8f8867f053e7bedbf1ab46616f0b8f94d68f2e6e33
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: glew
+Version: 2.3.1
+Depends: opengl, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c07b925e13a3858692ee8ea65fae8bc3f5fbc1c7d9f323bb9c811fc1907cc923
+Description: The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c40816a44cb7c9508f39b0857bfe0234a2eb6836ff0a2ebe89f5761aa18f6bb1
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 912c70a8f56cdbe787a2bc0a3d7fd47a9555aed06d3f2bc1fbe55c0f5a5e642a
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: de3e5f9fabdd40c31cc74a1bf72a7a088888bf4b77998fbc27ba124ebf572b37
+Status: install ok installed
+
+Package: vcpkg-tool-meson
+Version: 1.9.0
+Port-Version: 8
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5c2769c4ddd982d0a00425a624a4437fc2188b9481cd87db108dea26e8a2e30b
+Description: Meson build system
+Status: install ok installed
+
+Package: pkgconf
+Version: 2.5.1
+Port-Version: 4
+Depends: vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6c1f2b9b161e9657366b75e922cb4876387dc799b9143031c160ebaac8ceb47a
+Description: pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.
+Status: install ok installed
+

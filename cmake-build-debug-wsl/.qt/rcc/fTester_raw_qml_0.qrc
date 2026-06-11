@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qml/">
+    <file alias="qml/Main.qml">/mnt/c/Users/rafal/Desktop/fractalJulia4D/qml/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,5 @@
+--resource
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl/.qt/rcc/qmake_qml.qrc
+--resource
+/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl/.qt/rcc/fTester_raw_qml_0.qrc
+/qml/qml/Main.qml

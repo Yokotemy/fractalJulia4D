@@ -1,0 +1,442 @@
+[
+    {
+        "classes": [
+            {
+                "className": "App",
+                "lineNumber": 8,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 26,
+                        "name": "renderFrame",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 10,
+                        "name": "width",
+                        "notify": "widthChanged",
+                        "read": "width",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setWidth"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 11,
+                        "name": "height",
+                        "notify": "heightChanged",
+                        "read": "height",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setHeight"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 12,
+                        "name": "useGPU",
+                        "notify": "useGPUChanged",
+                        "read": "useGPU",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setUseGPU"
+                    }
+                ],
+                "qualifiedClassName": "App",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 29,
+                        "name": "widthChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 30,
+                        "name": "heightChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 31,
+                        "name": "useGPUChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "app.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "FractalItem",
+                "lineNumber": 19,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isPressed",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 61,
+                        "name": "setKeyState",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "dx",
+                                "type": "float"
+                            },
+                            {
+                                "name": "dy",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 62,
+                        "name": "rotateCamera",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "lineNumber": 63,
+                        "name": "resetBuffers",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 64,
+                        "name": "setCx",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 65,
+                        "name": "setCy",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 66,
+                        "name": "setCz",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "v",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 15,
+                        "lineNumber": 67,
+                        "name": "setCw",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 21,
+                        "name": "renderTime",
+                        "notify": "renderTimeChanged",
+                        "read": "renderTime",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 22,
+                        "name": "useGPU",
+                        "notify": "useGPUChanged",
+                        "read": "useGPU",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setUseGPU"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 23,
+                        "name": "isRunning",
+                        "notify": "isRunningChanged",
+                        "read": "isRunning",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setIsRunning"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 24,
+                        "name": "renderScale",
+                        "notify": "renderScaleChanged",
+                        "read": "renderScale",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false,
+                        "write": "setRenderScale"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 25,
+                        "name": "dimension",
+                        "notify": "dimensionChanged",
+                        "read": "dimension",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDimension"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 26,
+                        "name": "animAxis",
+                        "notify": "animAxisChanged",
+                        "read": "animAxis",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setAnimAxis"
+                    }
+                ],
+                "qualifiedClassName": "FractalItem",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 70,
+                        "name": "renderTimeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 71,
+                        "name": "renderScaleChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 72,
+                        "name": "dimensionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 73,
+                        "name": "useGPUChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 74,
+                        "name": "isRunningChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 75,
+                        "name": "animAxisChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 76,
+                        "name": "cpuFrameReady",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 7,
+                        "lineNumber": 79,
+                        "name": "updateFrame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 8,
+                        "lineNumber": 80,
+                        "name": "onCpuFrameReady",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "FractalItem.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "UIBridge",
+                "lineNumber": 7,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "width",
+                                "type": "int"
+                            },
+                            {
+                                "name": "height",
+                                "type": "int"
+                            },
+                            {
+                                "name": "useGPU",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 14,
+                        "name": "startRender",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 17,
+                        "name": "renderSingleFrame",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "UIBridge",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "UIBridge.h",
+        "outputRevision": 69
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "UIBridge",
+            "lineNumber": 7,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "width",
+                            "type": "int"
+                        },
+                        {
+                            "name": "height",
+                            "type": "int"
+                        },
+                        {
+                            "name": "useGPU",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 14,
+                    "name": "startRender",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 17,
+                    "name": "renderSingleFrame",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "UIBridge",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "UIBridge.h",
+    "outputRevision": 69
+}

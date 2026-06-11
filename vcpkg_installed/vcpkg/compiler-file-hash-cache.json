@@ -1,0 +1,20 @@
+{
+  "/usr/bin/c++" : 
+  {
+    "hash" : "067ea1aebac31a761576105ce20b891fc6881430",
+    "size" : 1305304,
+    "timestamp" : 1774174097
+  },
+  "/usr/bin/cc" : 
+  {
+    "hash" : "19aacf92ba6d5267c34e57623c8de23d33d192b7",
+    "size" : 1305304,
+    "timestamp" : 1774174097
+  },
+  "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe" : 
+  {
+    "hash" : "2e08d56dd76150e6b310caeb73087f06edb7fbdd",
+    "size" : 893288,
+    "timestamp" : 1779794432
+  }
+}

@@ -1,0 +1,6 @@
+module qml
+typeinfo fTester.qmltypes
+prefer :/qml/
+Main 1.0 qml/Main.qml
+depends QtQuick
+

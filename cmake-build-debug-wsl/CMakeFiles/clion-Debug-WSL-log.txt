@@ -1,0 +1,28 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug /usr/bin/cmake "  " -DCMAKE_BUILD_TYPE=Debug "  " -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake "  " -G "Unix Makefiles" "  " -S . "  " -B build -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc -S /mnt/c/Users/rafal/Desktop/fractalJulia4D -B /mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "/usr/bin/cmake"
+
+
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "/mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl"
+
+
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "  "
+
+
+-- Configuring done (31.9s)
+-- Generating done (2.8s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: /mnt/c/Users/rafal/Desktop/fractalJulia4D/cmake-build-debug-wsl

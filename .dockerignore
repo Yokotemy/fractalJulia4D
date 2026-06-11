@@ -1,0 +1,15 @@
+build/
+cmake-build-debug/
+cmake-build-debug-wsl/
+.idea/
+vcpkg_installed/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
